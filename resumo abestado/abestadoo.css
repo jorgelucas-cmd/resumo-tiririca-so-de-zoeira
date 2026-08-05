@@ -1,0 +1,122 @@
+* {
+    font-family: 'Sekuya', sans-serif;
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+.cab {
+    width: 100%;
+    padding-top: 40px;
+
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    cursor: pointer;
+    color:red;   
+}
+
+.tcab { 
+   margin-top: 20px;
+   margin-right: 10px;
+   margin-left: 30px;
+}
+
+
+img {
+    width: 400px;
+    height: 700px;
+    margin: 100px 30px 60px 60px;
+}
+
+.corp {
+    margin: 500px 0 0 400px;
+    position: fixed;
+
+}
+
+.tcorp1  {
+    margin-bottom: 20px;
+    width: 100px;
+    height: 100px;
+    color: red;
+}
+
+.up {
+    opacity: 1;
+    font-size: 30px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    background: rgb(142, 0, 0);
+    border-radius: 100px;
+    color: #ffffff;
+    cursor: pointer;
+    font-weight: 400;
+    font-size: 40px;
+
+    line-height: 100%;
+    letter-spacing: 0%;
+
+
+}
+
+.down {
+    width: 400px;
+    height: 50px;
+    opacity: 1;
+    border-radius: 50px;
+    opacity: 1;
+    color: #fffdfd;
+    background: rgb(255, 2, 2);
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    cursor: pointer;
+
+}
+
+@media screen and (max-width: 1200px) {
+    .corp {
+        position: relative;
+        width: auto;
+        margin: 20px 20px 0 50px;
+        text-align: center;
+    }
+    
+    .up {
+        position: relative;
+        width: auto;
+        margin: 20px 20px 0 50px;
+        text-align: center;
+    }
+
+    .cab {
+        width: auto;
+        margin: 58px 50px 0 50px;
+        text-align: center;
+        font-weight: 400;
+        padding: 10px;
+    }
+    .tcorp1 {
+        position: static;
+        width: auto;
+        margin: 30px 50px 0 50px;
+        height: none;
+        text-align: center;
+        padding: 20px;
+    
+    }
+
+    img {
+        margin: 40px 50px 0 160px;
+        text-align: center;
+    }
+    }
+
+
+    
+
+
+
